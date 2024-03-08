@@ -10,7 +10,8 @@ export async function askFetch(ask) {
         body: JSON.stringify({ question : ask })
     }
     //const response = await fetch("http://localhost:3000/ask", options)
-    const response = await fetch("https://serverless-ai-api.vercel.app/api/ask", options)
+    // https://serverless-ai-api.vercel.app/api/hello geeft hello world
+    const response = await fetch("https://serverless-ai-api.vercel.app/api/hello", options)
     if (response.ok) {
         text = await response.text()
     } else {

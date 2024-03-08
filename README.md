@@ -1,4 +1,10 @@
-# Serverless Call
+# CMGT Assistent
+
+Deze frontend client roept de CMGT assistent serverless api op vercel aan. 
+
+https://kokodoko.github.io/cmgt-assistent/
+
+## Serverless Call
 
 Vercel serverless function van extern domein aanroepen. [Je moet CORS aanzetten in vercel](https://vercel.com/guides/how-to-enable-cors).
 

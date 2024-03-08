@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMGT PRG4 Assistent</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script defer type="module" src="./assets/js/app.js"></script>
+</head>
+
+<body class="has-background-grey-lighter">
+    <nav class="level has-background-hr p-2 mb-0 header">
+        <div class="level-left">
+        </div>
+        <div class="level-right has-text-white is-hidden-mobile">
+            <div class="level-item">
+                <p class="is-6 has-text-white">
+                    Hogeschool Rotterdam | <a href="https://cmgt.hr.nl" target="_blank">Creative Media and Game Technologies</a>
+                </p>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section has-background-hr">
+        <h2 class="title has-text-white">CMGT AI</h2>
+        <h3 class="subtitle has-text-white">
+            Excalibur Games AI Assistent
+        </h3>
+    </section>
+    <section class="triangle"></section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div>
+                <div class="has-background-white-ter p-5">
+                    <div id="feedback">
+                        <div class="ml-6 m-1 p-3 has-right-bubble is-size-5 bubble-right">Ask a question...</div>
+                    </div>
+                    <progress class="progress is-small hidden mt-4" max="100"></progress>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="has-background-white-ter p-5">
+                        <form id="form" class="columns mt-2">
+                            <div class="field column is-two-thirds">
+                                <input class="input" required type="text" placeholder="Code question" id="chatinput">
+                            </div>
+                            <div class="column">
+                                <button class="button is-dark" type="submit" id="update">Send</button>
+                            </div>
+                        </form>
+                        <div class="is-size-6 is-italic has-text-grey-light">
+                            "How to create a player class?"<br>
+                            "What classes do I need in an excalibur game?"<br>
+                            "How do I set the speed of an actor?"
+                            "How to create a game class?"<br>
+                            "How can I add my player to a scene?"<br>
+                            "How do I know when an actor leaves the screen?"<br>
+                            "How do I know if two actors collide with each other?"<br>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer has-background-white">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <p class="is-italic is-size-6 has-text-grey">
+                        <strong>⚠️ Disclaimer</strong><br>
+                        Dit is een demo project. De antwoorden van de AI assistent kunnen inaccuraat zijn!<br>Gemaakt door <a href="https://kokodoko.github.io">Erik Katerborg</a>
+                    </p>
+                </div>
+                <div class="column"></div>
+                <div class="column is-hidden-mobile">
+                    <figure class="image is-full">
+                        <img src="./assets/images/cmgt.png">
+                    </figure>
+                </div>
+            </div>
+
+
+
+
+            <nav class="level mb-5">
+                <!-- Left side  linkedin github instagram -->
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="has-text-info mr-4" href="https://www.youtube.com/watch?v=ZGpaqxJM5eU" target="_blank" title="CMGT presentatie op YouTube"><i class="fab fa-youtube fa-2x"></i></a> 
+                        <a class="has-text-info mr-4" href="https://github.com/hr-cmgt" target="_blank" title="CMGT Github"><i class="fab fa-github fa-2x"></i></a>
+                        <a class="has-text-info mr-4" href="https://www.instagram.com/cmgt_hr/?hl=en" target="_blank" title="CMGT Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a class="has-text-info mr-4" href="https://www.twitch.tv/cmgt_hr" target="_blank" title="CMGT Twitch"><i class="fab fa-twitch fa-2x"></i></a>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <nav class="level mb-2">
+                <!-- Left side -->
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="has-text-info" target="_blank" href="https://www.hogeschoolrotterdam.nl/opleidingen/bachelor/creative-media-and-game-technologies/voltijd/">Over CMGT</a>
+                    </div>
+                    <div class="level-item is-hidden-mobile">|</div>
+                    <div class="level-item">
+                        <a class="has-text-info" target="_blank" href="https://cmgt.hr.nl/projecten/tag/ai">AI Studentenprojecten</a>
+                    </div>
+                    <div class="level-item is-hidden-mobile">|</div>
+                    <div class="level-item">
+                        <a class="has-text-info" target="_blank" href="https://www.hogeschoolrotterdam.nl/footer-pages/juridisch/privacy/">Privacy</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="is-size-7">© 2023-2024 Hogeschool Rotterdam. Alle rechten voorbehouden.</div>
+        </div>
+    </footer>
+</body>
+
+</html>
